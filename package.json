@@ -31,6 +31,6 @@
     "gulp-cssbeautify": "latest",
     "gulp-csscomb": "latest",
     "gulp-load-plugins": "latest",
-    "gulp-scss": "latest"
+    "gulp-sass": "latest"
   }
 }
