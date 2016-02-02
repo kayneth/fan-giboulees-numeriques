@@ -1,0 +1,38 @@
+{
+  "name": "fan",
+  "version": "1.0.0",
+  "description": "Site vitre pour festival arts numérique MMI Castres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayneth/fan-giboulees-numeriques.git"
+  },
+  "keywords": [
+    "site",
+    "vitrine",
+    "dut",
+    "mmi",
+    "castres",
+    "arts",
+    "numeriques"
+  ],
+  "author": "Dylan Temboucti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayneth/fan-giboulees-numeriques/issues"
+  },
+  "homepage": "https://github.com/kayneth/fan-giboulees-numeriques#readme",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-rename": "latest",
+    "gulp-csso": "latest",
+    "gulp-sass": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-cssbeautify": "latest",
+    "gulp-autoprefixer": "latest"
+  }
+}
