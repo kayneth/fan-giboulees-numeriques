@@ -4,6 +4,7 @@ var gulp = require('gulp');
 // Include plugins
 var plugins = require('gulp-load-plugins')(); // tous les plugins de package.json
 var sass = require('gulp-sass');//pb avec le loader au-dessus, donc chargement à part
+var csso = require('gulp-csso'); //same here
 
 
 // Variables de chemins
@@ -24,7 +25,7 @@ gulp.task('css', function () {
 // Tâche "minify" = minification CSS (destination -> destination)
 gulp.task('minify', function () {
   return gulp.src(destination + '/assets/css/*.css')
-    .pipe(plugins.csso())
+    .pipe(csso())
     .pipe(plugins.rename({
       suffix: '.min'
     }))
