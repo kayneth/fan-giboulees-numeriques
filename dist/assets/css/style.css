@@ -157,8 +157,12 @@ footer p {
 	color: #fff;
 }
 
+#content nav#portal {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
 #content nav#portal ul {
-	display: block;
 	padding: 10px;
 }
 
@@ -203,11 +207,14 @@ footer p {
 }
 
 @media screen and (min-width: 700px) {
+	#content nav#portal a {
+		width: 150px;
+		margin: 0 auto;
+	}
+
 	#content nav#portal ul {
-		display: inline-block;
-		width: 50%;
-		min-height: 200px;
-		margin-left: -4px;
+		min-height: 250px;
+		margin-top: -4px;
 		list-style: none;
 	}
 }

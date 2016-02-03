@@ -2,12 +2,16 @@
 	
 	#content{
 		nav#portal{
+			a{
+				width: 150px;
+				margin: 0 auto;
+			}
 			ul{
-				display: inline-block;
-				margin-left: -4px;
-				width: 50%;
-				min-height: 200px;
+				min-height: 250px;
 				list-style: none;
+				margin-top: -4px;
+				li{
+				}
 			}
 			
 		}
