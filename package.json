@@ -27,12 +27,12 @@
   "homepage": "https://github.com/kayneth/fan-giboulees-numeriques#readme",
   "devDependencies": {
     "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-cssbeautify": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-csso": "^1.0.1",
     "gulp-load-plugins": "latest",
     "gulp-rename": "latest",
-    "gulp-csso": "latest",
-    "gulp-sass": "latest",
-    "gulp-csscomb": "latest",
-    "gulp-cssbeautify": "latest",
-    "gulp-autoprefixer": "latest"
+    "gulp-sass": "latest"
   }
 }

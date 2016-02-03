@@ -1,14 +1,213 @@
-body {
-	position: relative;
-	z-index: 1337;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	font: inherit;
+	font-size: 100%;
 	margin: 0;
-	background: red;
+	padding: 0;
+	vertical-align: baseline;
+	border: 0;
 }
 
-p {
-	color: blue;
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: black;
+	background: #fff;
+}
+
+.btn {
+	display: block;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+header {
+	margin: 0;
+	background: #fece56;
+}
+
+header h1 {
+	padding: 50px;
+	color: white;
+}
+
+header #timer {
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	background: #656e7a;
+}
+
+footer {
+	padding-bottom: 20px;
+	background: #434953;
+}
+
+footer #partners {
+	margin-bottom: 40px;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	background: #656e7a;
+}
+
+footer a {
+	display: block;
+	margin: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+footer p {
+	margin-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+#content * {
+	color: #fff;
+}
+
+#content nav#portal ul {
+	display: block;
+	padding: 10px;
+}
+
+#content nav#portal ul a {
+	text-align: center;
+}
+
+#content nav#portal ul p {
+	margin: 10px;
+}
+
+#content nav#portal #festPortal {
+	background: #5386c5;
+}
+
+#content nav#portal #festPortal .btn {
+	background: #6698d0;
+}
+
+#content nav#portal #progPortal {
+	background: #ea563e;
+}
+
+#content nav#portal #progPortal .btn {
+	background: #f36d52;
+}
+
+#content nav#portal #interPortal {
+	background: #dc4554;
+}
+
+#content nav#portal #interPortal .btn {
+	background: #ed5565;
+}
+
+#content nav#portal #conPortal {
+	background: #89c04f;
+}
+
+#content nav#portal #conPortal .btn {
+	background: #a0cf68;
+}
+
+@media screen and (min-width: 700px) {
+	#content nav#portal ul {
+		display: inline-block;
+		width: 50%;
+		min-height: 200px;
+		margin-left: -4px;
+		list-style: none;
+	}
 }
