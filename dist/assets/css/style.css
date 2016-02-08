@@ -206,6 +206,26 @@ footer p {
 	background: #a0cf68;
 }
 
+#fest .row h2 {
+	padding: 20px;
+	background: #6698d0;
+}
+
+#fest .row .col-md-10,
+#fest .row .col-md-8 {
+	padding: 20px;
+	background: #5386c5;
+}
+
+#fest .row .col-md-11,
+#fest .row .col-md-5 {
+	background: #6698d0;
+}
+
+#fest p {
+	margin: 10px;
+}
+
 @media screen and (min-width: 700px) {
 	#content nav#portal a {
 		width: 150px;

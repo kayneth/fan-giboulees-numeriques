@@ -137,3 +137,22 @@ footer{
 		}
 	}
 }
+
+#fest{
+	.row{
+		h2{
+			background: $bleuClair;
+			padding: 20px;
+		}
+		.col-md-10, .col-md-8{
+			background: $bleuFonce;
+			padding: 20px;
+		}
+		.col-md-11, .col-md-5{
+			background: $bleuClair;
+		}
+	}
+	p{
+		margin: 10px;
+	}
+}

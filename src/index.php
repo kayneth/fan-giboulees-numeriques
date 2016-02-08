@@ -16,7 +16,7 @@
 					<li>
 						<h2>Le festival</h2>
 						<p>Sortez votre parapluie et venez découvrir les Giboulées Numériques...</p>
-						<a href="" class="btn">Voir plus</a>
+						<a href="festiv_info.php" class="btn">Voir plus</a>
 					</li>
 				</ul><!-- 
 				Lien vers le programme 
