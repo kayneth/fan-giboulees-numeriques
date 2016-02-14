@@ -8,12 +8,17 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- FONTS -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic,500,500italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
-		<h1>Giboulées Numériques</h1>
+		<h1>
+			<a href="index.php"><img src="assets/images/Banniere_jaune.png" alt="Giboulées Numériques"></a>
+		</h1>
 		<div id="timer">
-			<p>Le festival d'arts Numériques arrive dans...</p>
+			<p>Le festival d'arts numériques arrive dans...</p>
 			<p id="countdown"></p>
 		</div>
 	</header>

@@ -1,7 +1,7 @@
 	<footer>
 		<div id="partners">Partenaires</div>
 		<a href="">Plan du site</a>
-		<a href="">Mentions Légales</a>
+		<a href="mentions.php">Mentions Légales</a>
 		
 		<p>&copy; 2015 Festival d'Arts Numériques - IUT Paul Sabatier - Castres</p>
 	</footer>

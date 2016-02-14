@@ -9,11 +9,10 @@
 				<h2 class="col-md-11">Le Festival</h2>
 			</div>
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
+				<div class="col-md-11 col-md-offset-1" id="pres-part1">
 					<p>Les Giboulées Numériques sont un festival d’Arts Numériques, qui aura lieu le 11 mars 2016 dans l’enceinte de l’IUT Paul Sabatier à Castres.</p>
 					<p>Les Arts Numériques, ce sont des arts contemporains que nous croisons de plus en plus régulièrement. Quand vous jouez à un jeu vidéo par exemple, ou que vous écoutez un morceau de musique entièrement réalisé par ordinateur.</p>
 				</div>
-				<div class="col-md-2"></div>
 			</div>
 			<div class="row">
 				<div class="col-md-11">
@@ -37,6 +36,7 @@
 			</div>
 		</div>
 	</section>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
 <?php
 	include('footer.php');
 ?>
