@@ -8,6 +8,11 @@
 			
 		</div>
 	</section>
+
+	<script type="text/javascript">
+		var active = "coulisses";
+	</script>
+
 <?php
 	include('footer.php');
 ?>

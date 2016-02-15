@@ -3,7 +3,7 @@
 		<a href="">Plan du site</a>
 		<a href="mentions.php">Mentions Légales</a>
 		
-		<p>&copy; 2015 Festival d'Arts Numériques - IUT Paul Sabatier - Castres</p>
+		<p>&copy; <?php echo date('Y'); ?> Festival d'Arts Numériques - IUT Paul Sabatier - Castres</p>
 	</footer>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->

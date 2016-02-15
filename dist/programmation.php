@@ -31,6 +31,11 @@
 			</div>
 		</div>
 	</section>
+
+	<script type="text/javascript">
+		var active = "programme";
+	</script>
+
 <?php
 	include('footer.php');
 ?>

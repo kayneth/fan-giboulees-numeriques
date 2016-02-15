@@ -15,7 +15,7 @@
 						Festival des arts numériques ‘Giboulées Numériques’ 2016
 					</p>
 					<p>
-						Adresse : 115 Route de Narbonne, 31077 Toulouse
+						Adresse :  IUT “A” Paul Sabatier, Avenue Georges Pompidou, 81100 Castres
 					</p>
 					<p>
 						Téléphone : +33 (0)5 622 580 00
@@ -24,17 +24,22 @@
 						Mail : fanmmi.castres@gmail.com
 					</p>
 					<h3>Fondateurs actionnaires</h3>
-					<p>Armengaud Kévin, Benac Laurie, Benkaci-Ali Mehdi, Cahen Vianney, Campos Emilie, Combary Olivia, Courant Gaspard, Jaquet Jeremy, Lasgouzes Pauline, Lestrade Quentin, Martin Thomas, Mucchiutti Jonah, Rouanet David, Claire Santamari, Magali Seauve</p>
+					<p>Armengaud Kévin, Benac Laurie, Benkaci-Ali Mehdi, Cahen Vianney, Campos Emilie, Combary Olivia, Courant Gaspard, Jaquet Jérémy, Lasgouzes Pauline, Lestrade Quentin, Martin Thomas, Mucchiutti Jonah, Rouanet David, Santamaria Claire, Seauve Magali</p>
 					<h3>Professeurs</h3>
 					<p>Mignot Pierre, Barreau Sylvain, Oboldouief Caroline, Marrast Philippe</p>
 					<h3>Hébergement</h3>
 					<p>One.com</p>
 					<h3>Contenu du site</h3>
-					<p>Tout le contenu du site a été créé et développé par les étudiants de la formation MMI de l’IUT Paul Sabatier.</p>
+					<p>Tout le contenu du site a été créé et développé par les étudiants de la formation MMI de l’IUT ‘A’ Paul Sabatier antenne de Castres. Les textes, images, photographies et documents exposés sur ce site sont la propriété du Festival des Giboulées Numériques.</p>
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<script type="text/javascript">
+		var active = "";
+	</script>
+
 <?php
 	include('footer.php');
 ?>

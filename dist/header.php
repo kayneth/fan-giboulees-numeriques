@@ -11,11 +11,12 @@
 
 	<!-- FONTS -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic,500,500italic' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
 </head>
 <body>
 	<header>
 		<h1>
-			<a href="index.php"><img src="assets/images/Banniere_jaune.png" alt="Giboulées Numériques"></a>
+			<a href="index.php"><img src="" id="cover" alt="Giboulées Numériques"></a>
 		</h1>
 		<div id="timer">
 			<p>Le festival d'arts numériques arrive dans...</p>

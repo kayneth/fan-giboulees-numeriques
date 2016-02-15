@@ -13,18 +13,18 @@
 					<li class="col-md-7">
 						<h2>Le festival</h2>
 						<p>Sortez votre parapluie et venez découvrir les Giboulées Numériques...</p>
-						<a href="festival.php" class="btn">Voir plus</a>
+						<a href="festival.php" class="btn">Voir plus <span class="hvr-icon-wobble-horizontal"></a>
 					</li>
 				</ul><!-- 
 				Lien vers le programme 
-			--><ul id="progPortal" class="col-md-4">
+			--><ul id="progPortal" class="col-md-3">
 					<li class="decoPortal">
 						<img src="assets/images/FLAT_Nuages.png">
 					</li>
 					<li>
 						<p>Et on les prends pour quoi, nos jolis parapluies?</p>
 						<h2>Programme<h2>
-						<a href="programmation.php" class="btn">Par ici</a>
+						<a href="programmation.php" class="btn">Par ici <span class="hvr-icon-wobble-horizontal"></span></a>
 					</li>
 				</ul>
 			</div>
@@ -38,7 +38,7 @@
 					<li>
 						<p>Hm... Mais du coup qui est-ce qu'on va voir ?</p>
 						<h2>Intervenants</h2>
-						<a href="intervenants.php" class="btn">Suivez les flèches</a>
+						<a href="intervenants.php" class="btn">Suivez les flèches <span class="hvr-icon-wobble-horizontal"></a>
 					</li>
 				</ul><!--
 				Lien vers Contact
@@ -47,7 +47,7 @@
 						<p>D'accord, c'est bien, mais c'est où les Giboulées Numériques ?</p>
 						<p>Et si on a une question ?</p>
 						<h2>Contact</h2>
-						<a href="contact.php" class="btn">Par là</a>
+						<a href="contact.php" class="btn">Par là <span class="hvr-icon-wobble-horizontal"></a>
 					</li>
 					<li class="decoPortal col-md-5">
 						<img src="assets/images/FLAT_Soleil.png">
@@ -56,6 +56,11 @@
 			</div>
 		</nav>
 	</section>
+
+	<script type="text/javascript">
+		var active = "";
+	</script>
+
 <?php
 	include('footer.php');
 ?>

@@ -32,6 +32,10 @@
 			</div>
 		</div>
 	</section>
+
+	<script type="text/javascript">
+		var active = "contact";
+	</script>
 <?php
 	include('footer.php');
 ?>

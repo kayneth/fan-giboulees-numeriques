@@ -13,35 +13,35 @@
 			</div>
 			<div class="row pros">
 				<div class="col-md-3">
-					<div class="img-container"><img src="http://placehold.it/150x200"><div class="overlay"></div></div>
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
 					<div class="inter-infos">
-						<p>Prenom</p>
-						<p>Nom aka Pseudo</p>
-						<p>Métier</p>
+						<p>Clément</p>
+						<p>LASKAWIEK aka LASKOM</p>
+						<p>Graphiste illustrateur</p>
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="img-container"><img src="http://placehold.it/150x200"><div class="overlay"></div></div>
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
 					<div class="inter-infos">
-						<p>Prenom</p>
-						<p>Nom aka Pseudo</p>
-						<p>Métier</p>
+						<p>Victor</p>
+						<p>DUARTE</p>
+						<p>Spécialiste 3D</p>
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="img-container"><img src="http://placehold.it/150x200"><div class="overlay"></div></div>
+					<div class="img-container"><img src="assets/images/inter/Florian_ESTOUR.jpg"><div class="overlay"></div></div>
 					<div class="inter-infos">
-						<p>Prenom</p>
-						<p>Nom aka Pseudo</p>
-						<p>Métier</p>
+						<p>Florian</p>
+						<p>ESTOUR</p>
+						<p>Photographe</p>
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="img-container"><img src="http://placehold.it/150x200"><div class="overlay"></div></div>
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
 					<div class="inter-infos">
-						<p>Prenom</p>
-						<p>Nom aka Pseudo</p>
-						<p>Métier</p>
+						<p>Jeremy</p>
+						<p>Petrazko aka appa</p>
+						<p>Musicien</p>
 					</div>
 				</div>
 			</div>
@@ -53,6 +53,10 @@
 			</div>
 		</div>
 	</section>
+
+	<script type="text/javascript">
+		var active = "intervenants";
+	</script>
 <?php
 	include('footer.php');
 ?>

@@ -17,4 +17,33 @@ function initMap() {
 	});
 }
 
-initMap();
+function setActive(act){
+	switch(act){
+		case "festival":
+			document.getElementsByClassName('nav-festi')[0].parentNode.style.display = "none";
+			document.getElementById('cover').src = "assets/images/Banniere_bleu.png";
+			initMap();
+		break;
+		case "intervenants":
+			document.getElementsByClassName('nav-intervenants')[0].parentNode.style.display = "none";
+			document.getElementById('cover').src = "assets/images/Banniere_rouge.png";
+		break;
+		case "programme":
+			document.getElementsByClassName('nav-progra')[0].parentNode.style.display = "none";
+			document.getElementById('cover').src = "assets/images/Banniere_orange.png";
+		break;
+		case "contact":
+			document.getElementsByClassName('nav-contact')[0].parentNode.style.display = "none";
+			document.getElementById('cover').src = "assets/images/Banniere_vert.png";
+		break;
+		case "coulisses":
+			document.getElementsByClassName('nav-coulisses')[0].parentNode.style.display = "none";
+			document.getElementById('cover').src = "assets/images/Banniere_bleu_clair.png";
+		break;
+		default:
+			document.getElementById('cover').src = "assets/images/Banniere_jaune.png";
+		break;
+	}
+}
+
+setActive(active);
