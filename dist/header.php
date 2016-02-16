@@ -18,6 +18,10 @@
 		<h1>
 			<a href="index.php"><img src="" id="cover" alt="Giboulées Numériques"></a>
 		</h1>
+		<div class="rsn">
+			<a href="https://www.facebook.com/giboulees.numeriques/" target="_blank"><img src="assets/images/rsn/logo_facebook.png" alt="Facebook Giboulées Numériques Castres"></a>
+			<a href="https://twitter.com/GN_castres" target="_blank"><img src="assets/images/rsn/logo_twitter.png" alt="Twitter Giboulées Numériques Castres"></a>
+		</div>
 		<div id="timer">
 			<p>Le festival d'arts numériques arrive dans...</p>
 			<p id="countdown"></p>

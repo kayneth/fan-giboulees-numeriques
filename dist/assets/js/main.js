@@ -8,7 +8,8 @@ function initMap() {
 	var myLatLng = {lat: 43.6211655, lng: 2.2614};
 	map = new google.maps.Map(document.getElementById('map'), {
 	  center: myLatLng,
-	  zoom: 17
+	  zoom: 17,
+	  scrollwheel: false
 	});
 	var marker = new google.maps.Marker({
 	  position: myLatLng,

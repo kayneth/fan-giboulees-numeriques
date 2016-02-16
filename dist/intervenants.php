@@ -48,8 +48,90 @@
 			<div class="row">
 				<h3>...Et une multitude d'étudiants</h3>
 			</div>
-			<div class="row">
-				
+			<div class="row students">
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/Remi_CUXAC.jpg"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/Pauline_LASGOUZES.jpg"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/Vianney_CAHEN.jpg"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/Chloe_FLEURANCE.jpg"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/dylan.jpg"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+			</div>
+			<div class="row students" style="margin-left: 25px;">
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="img-container"><img src="assets/images/inter/DEFAUT.png"><div class="overlay"></div></div>
+					<div class="inter-infos">
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>

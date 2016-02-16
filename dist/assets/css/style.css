@@ -125,6 +125,7 @@ body {
 }
 
 header {
+	position: relative;
 	margin: 0;
 	background: #fece56;
 }
@@ -136,6 +137,18 @@ header h1 {
 
 header h1 img {
 	width: 100%;
+}
+
+header .rsn {
+	position: absolute;
+	z-index: 100;
+	left: 50%;
+	margin-top: -50px;
+}
+
+header .rsn img {
+	width: 25px;
+	margin: 10px;
 }
 
 header #timer {
@@ -525,7 +538,7 @@ nav#portal #conPortal p:nth-child(1) {
 	top: 0;
 	width: 100%;
 	height: 200px;
-	opacity: .5;
+	opacity: .4;
 	background: #dc4554;
 }
 
@@ -545,6 +558,57 @@ nav#portal #conPortal p:nth-child(1) {
 }
 
 #intervenants .pros .col-md-3:hover .inter-infos {
+	position: absolute;
+	top: 0;
+}
+
+#intervenants .students {
+	padding-left: 100px;
+}
+
+#intervenants .students .col-md-1 {
+	position: relative;
+	overflow: hidden;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+}
+
+#intervenants .students .col-md-1 .img-container {
+	height: 80px;
+	background: #dc4554;
+}
+
+#intervenants .students .col-md-1 .img-container img {
+	min-width: 107%;
+	height: 100%;
+}
+
+#intervenants .students .col-md-1 .img-container .overlay {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 80px;
+	opacity: .4;
+	background: #dc4554;
+}
+
+#intervenants .students .col-md-1 .inter-infos {
+	position: absolute;
+	top: 300px;
+	width: 100%;
+	height: 200px;
+	padding: 40px;
+	-webkit-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+	background: #ed5565;
+}
+
+#intervenants .students .col-md-1 .inter-infos p:nth-child(3) {
+	margin-top: 20px;
+}
+
+#intervenants .students .col-md-1:hover .inter-infos {
 	position: absolute;
 	top: 0;
 }
@@ -741,236 +805,6 @@ a:active .hvr-icon-wobble-horizontal:before {
 	animation-timing-function: ease-in-out;
 	-webkit-animation-iteration-count: 1;
 	animation-iteration-count: 1;
-}
-
-/* Bounce To Right */
-.hvr-bounce-to-right {
-	position: relative;
-	display: inline-block;
-	-webkit-transition-duration: .5s;
-	transition-duration: .5s;
-	-webkit-transition-property: color;
-	transition-property: color;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	vertical-align: middle;
-	box-shadow: 0 0 1px transparent;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.hvr-bounce-to-right:before {
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	content: '';
-	-webkit-transition-timing-function: ease-out;
-	transition-timing-function: ease-out;
-	-webkit-transition-duration: .5s;
-	transition-duration: .5s;
-	-webkit-transition-property: transform;
-	-webkit-transition-property: -webkit-transform;
-	transition-property: -webkit-transform;
-	transition-property: transform;
-	transition-property: transform, -webkit-transform;
-	-webkit-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transform-origin: 0 50%;
-	transform-origin: 0 50%;
-	background: #2098d1;
-}
-
-.hvr-bounce-to-right:hover,
-.hvr-bounce-to-right:focus,
-.hvr-bounce-to-right:active {
-	color: white;
-}
-
-.hvr-bounce-to-right:hover:before,
-.hvr-bounce-to-right:focus:before,
-.hvr-bounce-to-right:active:before {
-	-webkit-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
-	transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
-	-webkit-transform: scaleX(1);
-	transform: scaleX(1);
-}
-
-/* Bounce To Left */
-.hvr-bounce-to-left {
-	position: relative;
-	display: inline-block;
-	-webkit-transition-duration: .5s;
-	transition-duration: .5s;
-	-webkit-transition-property: color;
-	transition-property: color;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	vertical-align: middle;
-	box-shadow: 0 0 1px transparent;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.hvr-bounce-to-left:before {
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	content: '';
-	-webkit-transition-timing-function: ease-out;
-	transition-timing-function: ease-out;
-	-webkit-transition-duration: .5s;
-	transition-duration: .5s;
-	-webkit-transition-property: transform;
-	-webkit-transition-property: -webkit-transform;
-	transition-property: -webkit-transform;
-	transition-property: transform;
-	transition-property: transform, -webkit-transform;
-	-webkit-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transform-origin: 100% 50%;
-	transform-origin: 100% 50%;
-	background: #2098d1;
-}
-
-.hvr-bounce-to-left:hover,
-.hvr-bounce-to-left:focus,
-.hvr-bounce-to-left:active,
-.img-container:hover .hvr-bounce-to-left,
-.img-container:focus .hvr-bounce-to-left,
-.img-container:active .hvr-bounce-to-left {
-	color: white;
-}
-
-.hvr-bounce-to-left:hover:before,
-.hvr-bounce-to-left:focus:before,
-.hvr-bounce-to-left:active:before,
-.img-container:hover .hvr-bounce-to-left:before,
-.img-container:active .hvr-bounce-to-left:before,
-.img-container:focus .hvr-bounce-to-left:before {
-	-webkit-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
-	transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
-	-webkit-transform: scaleX(1);
-	transform: scaleX(1);
-}
-
-/* Bounce To Bottom */
-.hvr-bounce-to-bottom {
-	position: relative;
-	display: inline-block;
-	-webkit-transition-duration: .5s;
-	transition-duration: .5s;
-	-webkit-transition-property: color;
-	transition-property: color;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	vertical-align: middle;
-	box-shadow: 0 0 1px transparent;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.hvr-bounce-to-bottom:before {
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	content: '';
-	-webkit-transition-timing-function: ease-out;
-	transition-timing-function: ease-out;
-	-webkit-transition-duration: .5s;
-	transition-duration: .5s;
-	-webkit-transition-property: transform;
-	-webkit-transition-property: -webkit-transform;
-	transition-property: -webkit-transform;
-	transition-property: transform;
-	transition-property: transform, -webkit-transform;
-	-webkit-transform: scaleY(0);
-	transform: scaleY(0);
-	-webkit-transform-origin: 50% 0;
-	transform-origin: 50% 0;
-	background: #2098d1;
-}
-
-.hvr-bounce-to-bottom:hover,
-.hvr-bounce-to-bottom:focus,
-.hvr-bounce-to-bottom:active {
-	color: white;
-}
-
-.hvr-bounce-to-bottom:hover:before,
-.hvr-bounce-to-bottom:focus:before,
-.hvr-bounce-to-bottom:active:before {
-	-webkit-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
-	transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
-	-webkit-transform: scaleY(1);
-	transform: scaleY(1);
-}
-
-/* Bounce To Top */
-.hvr-bounce-to-top {
-	position: relative;
-	display: inline-block;
-	-webkit-transition-duration: .5s;
-	transition-duration: .5s;
-	-webkit-transition-property: color;
-	transition-property: color;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	vertical-align: middle;
-	box-shadow: 0 0 1px transparent;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.hvr-bounce-to-top:before {
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	content: '';
-	-webkit-transition-timing-function: ease-out;
-	transition-timing-function: ease-out;
-	-webkit-transition-duration: .5s;
-	transition-duration: .5s;
-	-webkit-transition-property: transform;
-	-webkit-transition-property: -webkit-transform;
-	transition-property: -webkit-transform;
-	transition-property: transform;
-	transition-property: transform, -webkit-transform;
-	-webkit-transform: scaleY(0);
-	transform: scaleY(0);
-	-webkit-transform-origin: 50% 100%;
-	transform-origin: 50% 100%;
-	background: #2098d1;
-}
-
-.hvr-bounce-to-top:hover,
-.hvr-bounce-to-top:focus,
-.hvr-bounce-to-top:active {
-	color: white;
-}
-
-.hvr-bounce-to-top:hover:before,
-.hvr-bounce-to-top:focus:before,
-.hvr-bounce-to-top:active:before {
-	-webkit-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
-	transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
-	-webkit-transform: scaleY(1);
-	transform: scaleY(1);
 }
 
 @media screen and (min-width: 700px) {
