@@ -33,6 +33,7 @@
     "gulp-csso": "^1.0.1",
     "gulp-load-plugins": "latest",
     "gulp-rename": "latest",
+    "gulp-concat": "latest",
     "gulp-sass": "latest"
   }
 }

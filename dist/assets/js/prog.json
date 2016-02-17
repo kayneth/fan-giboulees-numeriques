@@ -1,0 +1,19 @@
+{
+	"at10":[
+	{
+		"name":"Atelier 1",
+		"description": "Une premiere description",
+		"sub" : true
+	},
+	{
+		"name":"Atelier 1",
+		"description": "Une seconde description",
+		"sub" : true
+	},
+	{
+		"name":"Atelier 1",
+		"description": "Une dernière description",
+		"sub" : true
+	},
+	]
+}
