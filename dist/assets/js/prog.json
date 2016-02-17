@@ -1,19 +1,26 @@
-{
-	"at10":[
-	{
-		"name":"Atelier 1",
-		"description": "Une premiere description",
-		"sub" : true
-	},
-	{
-		"name":"Atelier 1",
-		"description": "Une seconde description",
-		"sub" : true
-	},
-	{
-		"name":"Atelier 1",
-		"description": "Une dernière description",
-		"sub" : true
-	},
-	]
-}
+[
+  {
+  	"name":"Atelier 1",
+  	"description": "Une premiere description",
+  	"hours":[
+      12, 13
+  	],
+  	"sub" : true
+  },
+  {
+  	"name":"Atelier 1",
+  	"description": "Une seconde description",
+  	"hours":[
+  		12, 15,17
+  	],
+  	"sub" : true
+  },
+  {
+  	"name":"Atelier 1",
+  	"description": "Une dernière description",
+  	"hours":[
+    	12, 10
+  	],
+  	"sub" : false
+  }
+]
