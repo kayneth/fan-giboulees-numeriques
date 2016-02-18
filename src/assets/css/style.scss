@@ -150,6 +150,8 @@ nav#navigation{
 				color: white;
 				background: $vertFonce;
 				text-transform: uppercase;
+				font-size: 24px;
+				font-weight: bold;
 				&:hover{
 					text-decoration: none;
 				}
@@ -309,6 +311,10 @@ nav#portal{
 			padding: 20px;
 			font-size: $h2Size;
 		}
+		h3{
+			font-size: $h2Size;
+			font-weight: bold;
+		}
 		.col-md-3{
 			background: $bleuClair;
 			min-height: 200px;
@@ -358,8 +364,11 @@ nav#portal{
 	}
 	h3{
 		background: $orangeFonce;
+		font-size: $h2Size;
+		font-weight: bold;
 		padding: 20px;
 		text-align: center;
+		cursor: pointer;
 	}
 	#progra-contain-glob{
 		margin-left: 50px;
