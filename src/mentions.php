@@ -3,10 +3,13 @@
 
 ?>
 	<section id="content">
+		<!-- LOADER  -->
+		<div class="loader">Chargement...</div>
+
 		<div id="mentions" class="container">
 			<div class="row">
-				<a href="index.php" class="col-md-2 btn-index">Retour accueil</a>
-				<h2 class="col-md-10">Mentions Légales</h2>
+				<a href="accueil" class="col-md-2 col-xs-12 btn-index">Retour accueil</a>
+				<h2 class="col-md-10 col-xs-12">Mentions Légales</h2>
 			</div>
 			<div class="row">
 				<div class="col-md-11 col-md-offset-1 text">

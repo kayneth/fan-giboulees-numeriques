@@ -1,7 +1,6 @@
 	<footer>
-		<div id="partners">Partenaires</div>
-		<a href="">Plan du site</a>
-		<a href="mentions.php">Mentions Légales</a>
+		<div id="partners"><a href="partenaires">Partenaires</a></div>
+		<a href="mentions">Mentions Légales</a>
 		
 		<p>&copy; <?php echo date('Y'); ?> Festival d'Arts Numériques - IUT Paul Sabatier - Castres</p>
 	</footer>

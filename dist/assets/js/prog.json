@@ -1,26 +1,162 @@
 [
   {
-  	"name":"Atelier 1",
-  	"description": "Une premiere description",
+  	"name":"CONCOURS - TOUTE LA JOURNEE",
+  	"description": "Quel sera votre meilleur souvenir des Giboulées Numériques ? Armé de votre smartphone, n’hésitez pas à prendre en photo les moments les plus marquants de votre journée, et à les proposer pour ce concours par le biais de Facebook ou Twitter, avec les mots clés #FANCASTRES et #MMICASTRES. Le gagnant sera celui qui saura faire la meilleure photo, et sera dûment récompensé. Vous aurez jusqu’à 16h pour proposer vos photos.",
   	"hours":[
-      12, 13
-  	],
-  	"sub" : true
-  },
-  {
-  	"name":"Atelier 1",
-  	"description": "Une seconde description",
-  	"hours":[
-  		12, 15, 17
-  	],
-  	"sub" : true
-  },
-  {
-  	"name":"Atelier 1",
-  	"description": "Une dernière description",
-  	"hours":[
-    	12, 10
+      "10h"
   	],
   	"sub" : false
+  },
+  {
+  	"name":"EXPOSITION - TOUTE LA JOURNEE",
+  	"description": "Toute la journée, profitez d’une exposition de divers travaux ou productions numériques. De l’animation Gif, à la photographie, en passant par de la vidéo avec les courts-métrages made in MMI, découvrez les travaux des étudiants… et professionnels !",
+  	"hours":[
+  		"10h"
+  	],
+  	"sub" : false
+  },
+  {
+  	"name":"Projection d’Idle Game - TOUTE LA JOURNEE",
+  	"description": "Les concepteurs du jeu interviennent pour le présenter et expliquer comment il a été programmé. Les visiteurs sont libres de le tester et de poser leurs questions. Le jeu se déroulera sur toute la journée, car il nécessite du temps pour monter de niveau et arriver à la fin.",
+  	"hours":[
+    	"10h"
+  	],
+  	"sub" : false
+  },
+  {
+  	"name":"Hall of fame - TOUTE LA JOURNEE",
+  	"description": " L’équipe CSS (Caribou Sauce Soja), participante de la Nuit de l’Info 2015, présente ici le travail qu’ils ont réalisé en l’espace de quelques heures. Celui-ci consiste en une application pensée pour les cas d’urgence.",
+  	"hours":[
+    	"10h"
+  	],
+  	"sub" : false
+  },
+  {
+  	"name":"Game Design - TOUTE LA JOURNEE",
+  	"description": " Le principe de cet atelier est celui du cadavre exquis. A plusieurs, le public créera un concept de jeu en créant indépendamment une partie du jeu pour finalement toutes les réunir et obtenir un concept de jeu unique.",
+  	"hours":[
+    	"10h"
+  	],
+  	"sub" : false
+  },
+  {
+  	"name":"Jeux vidéo - TOUTE LA JOURNEE",
+  	"description": "Autour de jeux en réseaux ou solo, tout amateur de jeux vidéo est invité à jouer aux différents jeux proposés sur console comme sur PC. Au programme : Counter Strike Source, Trackmania, Worms...",
+  	"hours":[
+    	"10h"
+  	],
+  	"sub" : false
+  },
+  {
+  	"name":"Présentation d’application : application de cuisine - 2h",
+  	"description": "Développée par les intervenants, cette application sera présentée au public. Elle permet de trouver des recettes, mais en fonction des ingrédients. De la cuisine pourrait être faite en parallèle de la présentation.",
+  	"hours":[
+    	"10h"
+  	],
+  	"sub" : false
+  },
+  {
+  	"name":"Défi Photoshop - 30min // Niveau débutant",
+  	"description": "En s’appuyant sur une large banque d’images et un thème imposé, les concurrents devront s’affronter autour de création graphique.",
+  	"hours":[
+    	"10h"
+  	],
+  	"sub" : false
+  },
+  {
+  	"name":"Atelier photo - 30min",
+  	"description": "Autour de discussions d’abord, et de réalisations ensuite, le public pourra s’initier à la photographie. Il sera conseillé sur le matériel ou les choix techniques en rapport avec la photo, pour ensuite réaliser lui-même des clichés. A tous niveaux, il aura l’occasion de réaliser de la macro et des portraits, ainsi que des photos de sujets en mouvement pour les photographes confirmés.",
+  	"hours":[
+    	"10h15", "11h15", "12h", "13h45", "14h30", "15h30"
+  	],
+  	"sub" : false
+  },
+  {
+  	"name":"Atelier mise en scène - 30min",
+  	"description": "Des vidéos courtes seront réalisées dans le même esprit que les Vines, mettant en scène le public en étant filmé sur un fond vert. Des paysages, environnements, situations seront alors incrustées par son biais.",
+  	"hours":[
+    	"10h15", "11h", "11h45", "13h30", "14h15", "15h", "16h", "16h45"
+  	],
+  	"sub" : false
+  },
+  {
+  	"name":"Atelier infographie (Photoshop) - 30min",
+  	"description": "Les intervenants enseigneront des techniques d’infographie au public, sur le logiciel Photoshop. Ils pourront travailler sur de la retouche photo de portrait, en manipulant les filtres, et en réalisant des photomontages, ainsi que sur de la réalisation d’animations GIF.",
+  	"hours":[
+    	"10h15", "11h", "11h45", "13h45", "14h15", "15h15", "16h", "16h45"
+  	],
+  	"sub" : false
+  },
+  {
+    "name":"Atelier Homido et Occulus - 45min",
+    "description": "Plongez dans le monde de la réalité augmentée, concept novateur qui vous fera vivre des expériences surprenantes. Équipé avec cette technologie, vous pourrez explorer des environnements virtuels ou bien même vous immerger dans l’ambiance d’un jeu vidéo.",
+    "hours":[
+      "10h15", "11h", "13h15", "15h", "16h15"
+    ],
+    "sub" : false
+  },
+  {
+    "name":"Atelier MAO - 30min",
+    "description": "Équipé d’un launchpad, le public pourra apprendre à créer un project file (composition musicale) ainsi qu’à utiliser l’instrument.",
+    "hours":[
+      "10h15", "13h45", "14h30", "16h15", "17h"
+    ],
+    "sub" : false
+  },
+  {
+    "name":"Défi Illustrator - 15min // Niveau débutant",
+    "description": "Ce défi est basé sur du dessin vectoriel, sur le logiciel Illustrator. Les participants devront reproduire une forme.",
+    "hours":[
+      "10h15"
+    ],
+    "sub" : false
+  },
+  {
+    "name":"Démonstration de MAO -1h",
+    "description": "Venez assister à une performance live de production audio, orchestrée par APPA, alias Jérémy Pétraszko.",
+    "hours":[
+      "11h", "15h"
+    ],
+    "sub" : false
+  },
+  {
+    "name":"Présentation d’application : Libego - 15min",
+    "description": "L’application Libego sera présentée, consistant à calculer les itinéraires des bus Castrais et à consulter leurs horaires. Le public pourra l’essayer et poser ses questions à propos de l’application et son fonctionnement.",
+    "hours":[
+      "11h", "15h"
+    ],
+    "sub" : false
+  },
+  {
+    "name":"Défi Illustrator -1h // Niveau intermédiaire",
+    "description": "Des logos, on en voit partout, pour tout. Pourquoi ne pas essayer d’en créer un ? Les concurrents devront créer un logo pour une marque fictive, en utilisant une police ainsi qu’une couleur imposée. Le plus original et efficace sera gagnant !",
+    "hours":[
+      "11h30", "13h30"
+    ],
+    "sub" : false
+  },
+  {
+    "name":"Projection musicale - 15min",
+    "description": "Cette exposition à caractère audiovisuel consiste en la projection de vidéos musicales. Celles-ci sont des reprises de musiques à la basse réalisées par un étudiant de MMI.",
+    "hours":[
+      "11h30", "13h", "14h30", "16h", "17h30"
+    ],
+    "sub" : false
+  },
+  {
+    "name":"Défi Photoshop -1h // Niveau intermédiaire",
+    "description": "Une affiche de promotion devra être créée autour d’un thème donné. Seulement, ils devront choisir entre deux images imposées et l’intégrer obligatoirement, de même qu’une police donnée, pour pimenter un peu le tout.",
+    "hours":[
+      "12h30"
+    ],
+    "sub" : false
+  },
+  {
+    "name":"Restauration de photographies - 1h15",
+    "description": "Le principe de cette performance consiste à exposer diverses techniques d’infographie. La première sera de la remise en état d’anciennes photographies, et la seconde du photomontage et de la création visuelle. Le logiciel Photoshop sera mis à l’honneur.",
+    "hours":[
+      "14h"
+    ],
+    "sub" : false
   }
 ]

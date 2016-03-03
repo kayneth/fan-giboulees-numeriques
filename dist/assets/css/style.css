@@ -110,6 +110,11 @@ h3 {
 	text-transform: uppercase;
 }
 
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -122,6 +127,21 @@ body {
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
+}
+
+.loader {
+	font-size: 50px;
+	line-height: 500px;
+	position: absolute;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: wait;
+	text-align: center;
+	text-align: center;
+	background: #fece56;
 }
 
 header {
@@ -190,8 +210,16 @@ footer p {
 	color: #fff;
 }
 
+#btnNav {
+	display: none;
+}
+
 nav#navigation {
 	width: 100%;
+}
+
+nav#navigation .rsn {
+	display: none;
 }
 
 nav#navigation ul {
@@ -271,6 +299,7 @@ nav#navigation ul li .nav-contact:hover {
 }
 
 #content {
+	position: relative;
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
@@ -280,10 +309,15 @@ nav#navigation ul li .nav-contact:hover {
 }
 
 nav#portal ul {
+	min-height: 250px;
+	margin-top: -4px;
 	padding: 10px;
+	list-style: none;
 }
 
 nav#portal ul a {
+	width: 150px;
+	margin: 0 auto;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -404,6 +438,17 @@ nav#portal #conPortal p:nth-child(1) {
 	margin-top: 50px;
 }
 
+nav#portal #couPortal {
+	min-height: 0;
+	margin-top: 0;
+	background: #1aaddc;
+}
+
+nav#portal #couPortal .btn {
+	width: 300px;
+	background: #44c4ef;
+}
+
 #fest .row {
 	margin: 0;
 }
@@ -501,6 +546,11 @@ nav#portal #conPortal p:nth-child(1) {
 	text-align: center;
 }
 
+#progra #items h4 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
 #progra #items li:nth-child(odd),
 #progra #items li:nth-child(even) {
 	padding: 20px;
@@ -508,8 +558,19 @@ nav#portal #conPortal p:nth-child(1) {
 	background: #ea563e;
 }
 
+#progra #items li:nth-child(odd) .subli,
+#progra #items li:nth-child(even) .subli {
+	padding: 10px;
+	background: #f36d52;
+}
+
 #progra #items li:nth-child(even) {
 	background: #f36d52;
+}
+
+#progra #items li:nth-child(even) .subli {
+	padding: 10px;
+	background: #ea563e;
 }
 
 #intervenants h2 {
@@ -563,6 +624,18 @@ nav#portal #conPortal p:nth-child(1) {
 	background: #ed5565;
 }
 
+#intervenants .pros .col-md-3 .inter-infos .rsn a {
+	display: inline-block;
+	width: 30px;
+	padding: 5px;
+	text-align: center;
+	background: #dc4554;
+}
+
+#intervenants .pros .col-md-3 .inter-infos .rsn a img {
+	width: 80%;
+}
+
 #intervenants .pros .col-md-3 .inter-infos p:nth-child(3) {
 	margin-top: 20px;
 }
@@ -576,42 +649,57 @@ nav#portal #conPortal p:nth-child(1) {
 	padding-left: 100px;
 }
 
+#intervenants .students:nth-child(even) {
+	margin-left: 25px;
+}
+
 #intervenants .students .col-md-1 {
 	position: relative;
 	overflow: hidden;
-	height: 80px;
+	height: 90px;
 	margin: 0;
 	padding: 0;
 }
 
 #intervenants .students .col-md-1 .img-container {
-	height: 80px;
+	height: 90px;
 	background: #dc4554;
 }
 
 #intervenants .students .col-md-1 .img-container img {
-	min-width: 107%;
-	height: 100%;
+	width: 100%;
 }
 
 #intervenants .students .col-md-1 .img-container .overlay {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	height: 80px;
+	height: 90px;
 	opacity: .4;
 	background: #dc4554;
 }
 
 #intervenants .students .col-md-1 .inter-infos {
 	position: absolute;
-	top: 300px;
+	top: 90px;
 	width: 100%;
-	height: 200px;
-	padding: 40px;
-	-webkit-transition: all .5s ease-out;
-	transition: all .5s ease-out;
+	height: 90px;
+	padding: 30px;
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
 	background: #ed5565;
+}
+
+#intervenants .students .col-md-1 .inter-infos .rsn a {
+	display: inline-block;
+	width: 30px;
+	padding: 5px;
+	text-align: center;
+	background: #dc4554;
+}
+
+#intervenants .students .col-md-1 .inter-infos .rsn a img {
+	width: 80%;
 }
 
 #intervenants .students .col-md-1 .inter-infos p:nth-child(3) {
@@ -665,7 +753,7 @@ nav#portal #conPortal p:nth-child(1) {
 #contact .form-container textarea {
 	display: block;
 	width: 100%;
-	margin: 19px;
+	margin-top: 19px;
 }
 
 #contact .form-container input,
@@ -709,6 +797,25 @@ nav#portal #conPortal p:nth-child(1) {
 #mentions .text h3 {
 	font-weight: bold;
 	margin-top: 25px;
+}
+
+#coulisses h2 {
+	padding: 30px;
+	text-align: center;
+	background: #1aaddc;
+}
+
+#coulisses .my-gallery {
+	padding: 20px;
+	background: #44c4ef;
+}
+
+#coulisses .my-gallery figure {
+	margin-top: 10px;
+}
+
+#coulisses .my-gallery figure figcaption {
+	display: none;
 }
 
 /* Icon Wobble Horizontal */
@@ -817,15 +924,124 @@ a:active .hvr-icon-wobble-horizontal:before {
 	animation-iteration-count: 1;
 }
 
-@media screen and (min-width: 700px) {
-	#content nav#portal a {
-		width: 150px;
-		margin: 0 auto;
+@media screen and (max-width: 1000px) {
+	#content {
+		padding: 0;
 	}
 
-	#content nav#portal ul {
-		min-height: 250px;
+	header .rsn {
+		display: none;
+	}
+
+	nav#navigation {
+		margin-bottom: 50px;
+	}
+
+	nav#navigation .rsn {
+		display: block;
+		padding-top: 10px;
+		text-align: center;
+		border-top: 1px solid white;
+		background: #656e7a;
+	}
+
+	nav#navigation .rsn a {
+		width: 50px;
+		margin: 20px;
+	}
+
+	nav#navigation .rsn a img {
+		width: 50px;
+	}
+
+	nav#navigation ul li {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+
+	nav#portal h2 {
+		text-align: center;
+	}
+
+	nav#portal .btn {
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 10px;
+	}
+
+	nav#portal ul {
+		min-height: 0;
 		margin-top: -4px;
 		list-style: none;
+	}
+
+	nav#portal .col-md-7 {
+		padding: 0;
+	}
+
+	nav#portal #festPortal .decoPortal img {
+		position: absolute;
+		right: 0;
+	}
+
+	nav#portal #interPortal h2,
+    nav#portal #interPortal p {
+		margin-left: 0;
+	}
+
+	nav#portal #conPortal {
+		padding-top: 10px;
+	}
+
+	nav#portal #conPortal .decoPortal img {
+		position: absolute;
+		right: 0;
+		margin-top: -100px;
+	}
+
+	#progra #progra-contain-glob {
+		margin: 0;
+	}
+
+	#progra #items .col-md-9 {
+		margin: 25px;
+	}
+
+	#progra #items li:nth-child(odd),
+    #progra #items li:nth-child(even) {
+		padding-left: 0;
+	}
+
+	#fest {
+		padding: 0;
+	}
+
+	#fest .row .col-md-11 {
+		padding-right: 90px;
+	}
+
+	#fest .row #pres-part1 {
+		background: #5386c5 url('../images/FLAT_Parapluie.png') no-repeat right bottom;
+		background-size: 25%;
+	}
+
+	#intervenants .pros,
+    #intervenants .students {
+		padding: 0;
+	}
+
+	#intervenants .pros:nth-child(even),
+    #intervenants .students:nth-child(even) {
+		margin-left: -15px;
+	}
+
+	#contact .img-container img {
+		max-height: 85%;
+		margin-top: 20px;
+	}
+
+	#mentions .text {
+		padding: 30px;
 	}
 }

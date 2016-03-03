@@ -4,6 +4,10 @@
 
 ?>
 	<section id="content">
+	<!-- LOADER  -->
+		<div class="loader">Chargement...</div>
+
+		
 		<div id="fest" class="container">
 			<div class="row">
 				<h2 class="col-md-11">Le Festival</h2>
@@ -36,7 +40,7 @@
 					Ligne 2 <a href="http://www.libellus.org/datas/pages/9/web_depliant_l02_9.pdf">(voir les horaires)</a>
 					Ligne 3 <a href="http://www.libellus.org/datas/pages/10/web_depliant_l03_10.pdf">(voir les horaires)</a>
 					</p>
-					<p>Restauration : Buffet à disposition matin de 10h à 11h, le midi de 12h à 14h, et l’après-midi de 16h à 17h30</p>
+					<p>Restauration : Buffet à disposition matin de 10h à 11h, et l’après-midi de 16h à 17h30</p>
 					<p>Personne à mobilité réduite : places de parking réservées et établissement adapté. Alcool, animaux, armes ou objets dangereux interdits au sein de l’établissement.</p>
 				</div>
 			</div>

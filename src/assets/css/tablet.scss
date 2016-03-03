@@ -1,19 +1,128 @@
-@media screen and (min-width: 700px){
-	
+@media screen and (max-width: 1000px){
 	#content{
-		nav#portal{
+		padding: 0;
+	}
+	header{
+		.rsn{display: none;}
+	}
+	nav#navigation{
+		margin-bottom: 50px;
+		.rsn{
+			display: block;
+			text-align: center;
+			background: #656E7A;
+			border-top: 1px solid white;
+			padding-top: 10px;
 			a{
-				width: 150px;
-				margin: 0 auto;
-			}
-			ul{
-				min-height: 250px;
-				list-style: none;
-				margin-top: -4px;
-				li{
+				width: 50px;
+				margin: 20px;
+				img{
+					width: 50px;
 				}
 			}
-			
+		}
+		ul{
+			li{
+				display: block;
+				width: 100%;
+				margin: 0;
+			}
 		}
 	}
+	nav#portal{
+		h2{
+			text-align: center;
+		}
+		.btn{
+			width: 100% !important;
+			padding: 10px;
+			margin: 0 !important;
+		}
+		ul{
+			min-height: 0px;
+			list-style: none;
+			margin-top: -4px;
+			li{
+			}
+		}
+		.col-md-7{
+			padding: 0;
+		}
+		#festPortal{
+			.decoPortal{
+				img{
+					position: absolute;
+					right: 0;
+				}
+			}
+		}
+		#interPortal{
+			h2, p{
+				margin-left: 0;
+			} 
+		}
+		#conPortal{
+			padding-top: 10px;
+			.decoPortal{
+				img{
+					position: absolute;
+					right: 0;
+					margin-top: -100px;
+				}
+			}
+		}
+	}
+	#progra{
+		#progra-contain-glob{
+			margin: 0;
+		}
+		#items{
+			.col-md-9{
+				margin: 25px;
+			}
+			li:nth-child(odd){
+				padding-left: 0;
+			}
+			li:nth-child(even){
+				@extend li:nth-child(odd);
+			}
+		}
+	}
+	#fest{
+		padding: 0;
+		.row{
+			.col-md-11{
+				padding-right: 90px;
+			}
+			#pres-part1{
+				background: #5386c5 url('../images/FLAT_Parapluie.png') no-repeat right bottom;
+				background-size: 25%;
+			}
+		}
+	}
+	#intervenants{
+		.pros, .students{
+			padding: 0;
+			&:nth-child(even){
+				margin-left: -15px;
+			}
+		}
+	}
+	#contact{
+		.img-container{
+			img{
+				max-height: 85%;
+				margin-top: 20px;
+			}
+		}
+	}
+	#mentions{
+		.text{
+			padding: 30px;
+		}
+	}
+}
+
+@media screen and (max-width: 500px){
+
 }

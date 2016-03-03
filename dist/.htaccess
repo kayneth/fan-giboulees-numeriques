@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^accueil$ index.php
+RewriteRule ^([a-z]+)$ $1.php
+
+ErrorDocument 404 /index.php

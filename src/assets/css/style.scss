@@ -61,6 +61,13 @@ h3{
 	text-transform: uppercase;
 }
 
+a{
+	&:hover{
+		text-decoration: none;
+		color: white;
+	}
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -73,6 +80,23 @@ body{
 	text-align: center;
 	color: #FFF;
 	text-decoration: none;
+}
+
+.loader{
+	position : absolute;
+	z-index: 9999;
+	top : 0px;
+	left : 0px;
+	height : 100%;
+	width : 100%;
+	cursor : wait;
+
+	text-align: center;
+	line-height:500px;
+	text-align:center;
+
+	font-size: 50px;
+	background: #FECE56;
 }
 
 header{
@@ -132,8 +156,14 @@ footer{
 	}
 }
 
+#btnNav{
+	display: none;
+}
 nav#navigation{
 	width: 100%;
+	.rsn{
+		display: none;
+	}
 	ul{
 		width: 100%;
 		li{
@@ -197,6 +227,7 @@ nav#navigation{
 }
 
 #content{
+	position: relative;
 	padding-bottom: 100px; padding-top: 100px;
 	*{
 		color: #FFF;
@@ -204,10 +235,15 @@ nav#navigation{
 }
 nav#portal{
 	ul{
+		min-height: 250px;
 		padding: 10px;
+		list-style: none;
+		margin-top: -4px;
 		a{
 			text-align: center;
 			text-transform: uppercase;
+			width: 150px;
+			margin: 0 auto;
 		}
 		p{
 			margin: 15px;
@@ -301,6 +337,15 @@ nav#portal{
 			margin-top: 50px;
 		}
 	}
+	#couPortal{
+		background: $bleu2Fonce;
+		min-height: 0;
+		margin-top: 0;
+		.btn{
+			background: $bleu2Clair;
+			width: 300px;
+		}
+	}
 }
 
 #fest{
@@ -383,14 +428,26 @@ nav#portal{
 		}
 	}
 	#items{
+		h4{
+			font-size: 20px;
+			font-weight: bold;
+		}
 		li:nth-child(odd){
 			background: $orangeFonce;
 			padding: 20px;
 			padding-left: 100px;
+			.subli{
+				padding: 10px;
+				background: $orangeClair;
+			}
 		}
 		li:nth-child(even){
 			@extend li:nth-child(odd);
 			background: $orangeClair;
+			.subli{
+				padding: 10px;
+				background: $orangeFonce;
+			}
 		}
 
 	}
@@ -436,6 +493,18 @@ nav#portal{
 				padding: 40px;
 				background: $rougeClair;
 				transition: all .3s ease-in;
+				.rsn{
+					a{
+						display: inline-block;
+						width: 30px;
+						padding: 5px;
+						text-align: center;
+						background: $rougeFonce;
+						img{
+							width: 80%;
+						}
+					}
+				}
 				& p:nth-child(3){
 					margin-top: 20px;
 				}
@@ -450,36 +519,50 @@ nav#portal{
 	}
 	.students{
 		padding-left: 100px;
+		&:nth-child(even){
+			margin-left: 25px;
+		}
 		.col-md-1{
 			position: relative;
-			height: 80px;
+			height: 90px;
 			margin: 0;
 			padding: 0;
 			overflow: hidden;
 			.img-container{
 				background: $rougeFonce;
-				height: 80px;
+				height: 90px;
 				img{
-					height: 100%;
-					min-width: 107%;
+					width: 100%;
 				}
 				.overlay{
 					position: absolute;
 					top: 0;
 					width: 100%;
-					height: 80px;
+					height: 90px;
 					background: $rougeFonce;
 					opacity: .4;
 				}
 			}
 			.inter-infos{
 				position: absolute;
-				top:300px;
-				height: 200px;
+				top: 90px;
+				height: 90px;
 				width: 100%;
-				padding: 40px;
+				padding: 30px;
 				background: $rougeClair;
-				transition: all .5s ease-out;
+				transition: all .3s ease-out;
+				.rsn{
+					a{
+						display: inline-block;
+						width: 30px;
+						padding: 5px;
+						text-align: center;
+						background: $rougeFonce;
+						img{
+							width: 80%;
+						}
+					}
+				}
 				& p:nth-child(3){
 					margin-top: 20px;
 				}
@@ -529,7 +612,7 @@ nav#portal{
 		label, input, textarea{
 			display: block;
 			width: 100%;
-			margin: 19px;
+			margin-top: 19px;
 		}
 		input, textarea{
 			background: $vertFonce;
@@ -567,6 +650,24 @@ nav#portal{
 		h3{
 			font-weight: bold;
 			margin-top: 25px;
+		}
+	}
+}
+
+#coulisses{
+	h2{
+		background: $bleu2Fonce;
+		padding: 30px;
+		text-align: center;
+	}
+	.my-gallery{
+		background: $bleu2Clair;
+		padding: 20px;
+		figure{
+			margin-top: 10px;
+			figcaption{
+				display: none;
+			}
 		}
 	}
 }
